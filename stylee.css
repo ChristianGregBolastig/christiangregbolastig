@@ -1,0 +1,151 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url() no-repeat center;
+    background-size: cover;
+    background: linear-gradient(90deg ,darkgray,gray,darkgray);
+}
+
+.login-div {
+    margin: 100px auto;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: grey;
+    border-radius: 10px;
+    color: azure;
+    box-shadow: 0 15px 25px rgb(67, 70, 67);
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 75px);
+    width: 150px;
+    background-color: aquamarine;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+img {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.logo-img{
+    width: 75%;
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 50px);
+    width: 100px;
+}
+
+.title {
+    text-align: center;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.sub-title{
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+
+
+}
+
+.form {
+    width: 100%;
+    margin-top: 30px;
+}
+.form input{
+    font-size: 18px;
+    padding: 10px 0px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.txtpassword {
+    width: 80%;
+}
+
+.txtusername {
+    width: 80%;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.username:hover {background-color: darkgray;}
+
+.username {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 1px;
+    margin: 10px 0;
+
+}
+
+.password:hover {background-color: darkgray;}
+
+.password {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 1px;
+    margin: 10px 0;
+}
+
+.form svg {
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    fill: aliceblue;
+}
+
+.option {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px;
+    margin-bottom: 30px;
+}
+button.signin-btn:hover {background-color: tomato;}
+
+button.signin-btn {
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{
+ text-decoration: none;
+ color: white;
+}

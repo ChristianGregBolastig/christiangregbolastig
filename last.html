@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <script src="RF.js"></script>
+    <link rel="stylesheet" href="fancy.css">
+</head>
+<body>
+<b><p class="Top">Web Development 2 - Group 8</p></b>
+
+        <ul class="Na">
+            <li class="Nav"> <a href="last.html" target="_blank">Home</a></li>
+            <li class="Nav"> <a href="#">About</a></li>
+            <li class="Nav"> <a href="#">Contact</a></li>
+            <li class="Nav"> <a href="#">Information</a></li>
+            <li class="Nav"> <a href="#">Gallery</a></li>
+            <li class="Nav"> <a href="#">Services</a></li>
+            <li class="Nav"> <a href="#">Features</a></li>
+            <li class="Nav"> <a href="#">Help</a></li>
+            <li class="Nav"> <a href="LoginForm.html" target="_blank">Login</a></li>
+        </ul>
+
+    <form action="Complete.html" target="_blank" name="login" method="POST" onsubmit="return validateForm()" >
+        <div class="Box">
+            <div class="B-Form"><h1>Registration Form</h1></div>
+                <div class="put">
+                    <input class="F" type="text" placeholder="First name" name="Firstname">
+                    <div><input class="L" type="text" placeholder="Last name" name="Lastname">
+                        <div><input class="E" type="email" placeholder="Email" name="EmailAddress">
+                        <div><input class="P" type="password" placeholder="Password" name="Password">
+                    <div><input class="CF" type="password" placeholder="Confirm Password" name="CPassword">
+                <div><input class="B" type="text" placeholder="Birthday" name="Birthday">
+            <div><input class="PN" type="number" placeholder="Phone Number" name="PhoneNumber">
+               
+                    <div><input class="G" type="text" placeholder="Gender (Male or Female)" name="gender"></div>
+                        </div>
+                        <div><input type="checkbox" style="width: 4%; margin-top: 5%; " name="checkbox" > I have read and agreed to <u><a href="TcFam.html" target="_blank" style="color: white;" > terms and policy of Greg</a></u></div>
+                        <div><input type="checkbox" style="width: 4%; margin-top: 1%;" name="checkbox"> I accept term and condition that my data will be secured.</div>
+                    <button type="submit" class="btn"> Submit </button>
+                <button type="reset" class="rst">Clear</button>
+
+        </div>
+    </div>
+    </form>
+</body>
+</html>

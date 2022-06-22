@@ -1,0 +1,120 @@
+.Top {
+    background-color: rgb(48, 46, 46);
+    color: white;
+    font-size: 50px;
+    margin-top: 1px; 
+    margin-bottom: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.Na {
+    list-style: none;
+    margin: 0;
+    padding: 6px 100px 6px;
+    overflow: hidden;
+    background-color: #333333;
+    font-size: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+    padding-left: 25%;
+   }
+   .Nav { 
+    float: left;
+    color: white;
+   }
+   .Nav:hover{background-color: black; border-radius: 10px;}
+
+   li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+   }
+
+body {
+    background-image: url(dray.jpg);
+    font-family: 'Times New Roman', Times, serif ;
+}
+.Box {
+margin: 2px auto;
+width: 100%;
+max-width: 400px;
+padding: 50px 100px 50px;
+background-color: gray;
+border-radius: 10px;
+color: azure;
+box-shadow: 0 15px 25px rgb(67, 70, 67);
+}
+
+.B-Form {
+    border: 2px solid tomato;
+    border-radius: 10px;
+    text-align: center; 
+    background-color: tomato ;
+    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 1px;
+
+}
+
+.F:hover {background-color: darkgray;}
+.L:hover {background-color: darkgray;}
+.P:hover {background-color: darkgray;}
+.CF:hover {background-color: darkgray;}
+.B:hover {background-color: darkgray;}
+.PN:hover {background-color: darkgray;}
+.E:hover {background-color: darkgray;}
+.G:hover {background-color: darkgray;}
+
+.F , .L , .P , .CF , .B , .PN , .E , .G{
+    display: block;
+border-radius: 5px;
+border: 1px solid white;
+margin: 5px 0;
+padding: 10px;
+}
+ input {
+    color: white;
+    font-size: 18px;
+padding: 10px 0px 10px 5px;
+border: none;
+outline: none;
+background: none;
+width: 96%;
+}
+::placeholder {
+    color: white ;
+}
+
+.btn:hover {background-color: orangered;}
+.rst:hover {background-color: orangered;}
+
+.btn {
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 1px;
+    margin-top: 10px;
+    padding: 6px 43% 6px;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    background-color: tomato;
+    text-decoration: none;
+}
+.rst {
+    flex-direction: row;
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 1px;
+    padding: 5px 45% 5px;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    background-color: tomato;
+    text-decoration: none;
+}
